@@ -4,8 +4,7 @@ server:
 ## Eureka Config
 eureka:
   instance:
-    preferIpAddress: true
-    hostname: ${HOSTNAME:https://eureka-production-534a.up.railway.app/}
+    hostname: ${HOSTNAME:eureka-production-534a.up.railway.app}
   client:
     registerWithEureka: true
     fetchRegistry: true
